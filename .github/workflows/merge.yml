@@ -1,9 +1,9 @@
 name: Merge Script
 
 on:
-   push:
-     branches:  
-     main 
+  # push:
+   #  branches:  
+   #  main 
   schedule:
     - cron: '0 0/6 * * *'  # 每 6h 一次
   workflow_dispatch:  # 触发手动事件
