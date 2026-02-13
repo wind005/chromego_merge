@@ -394,7 +394,7 @@ proxies:
     headers:
       Host: app.hajmyab.ir
     path: /
-- name: None_None_trojan_1129
+- name: United States_San Francisco_trojan_1129
   network: ws
   password: 42714fa2-595c-4993-8b9b-83081e51c076
   port: 2087
@@ -406,7 +406,7 @@ proxies:
     headers:
       Host: 17708924951357.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: None_None_trojan_1130
+- name: United States_San Francisco_trojan_1130
   network: ws
   password: 42714fa2-595c-4993-8b9b-83081e51c076
   port: 2087
@@ -418,7 +418,7 @@ proxies:
     headers:
       Host: 17708924955827.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: None_None_trojan_1131
+- name: United States_San Francisco_trojan_1131
   network: ws
   password: 42714fa2-595c-4993-8b9b-83081e51c076
   port: 2087
@@ -658,7 +658,7 @@ proxies:
     headers:
       Host: 17708924952003.206353.xyz
     path: '%2Fagrbniuh'
-- name: United States_None_trojan_1151
+- name: None_None_trojan_1151
   network: ws
   password: 42714fa2-595c-4993-8b9b-83081e51c076
   port: 2083
@@ -682,7 +682,7 @@ proxies:
     headers:
       Host: 17708924958981.206356.xyz
     path: '%2Fdmusicmuaawe'
-- name: None_None_trojan_1153
+- name: United States_None_trojan_1153
   network: ws
   password: 42714fa2-595c-4993-8b9b-83081e51c076
   port: 8443
@@ -694,7 +694,7 @@ proxies:
     headers:
       Host: 17708924959288.206352.xyz
     path: '%2Fagraeabtegrrh'
-- name: None_None_trojan_1154
+- name: United States_None_trojan_1154
   network: ws
   password: 42714fa2-595c-4993-8b9b-83081e51c076
   port: 2053
@@ -706,7 +706,7 @@ proxies:
     headers:
       Host: 17708924954898.206353.xyz
     path: '%2Fagrbniuh'
-- name: None_None_trojan_1155
+- name: United States_None_trojan_1155
   network: ws
   password: 42714fa2-595c-4993-8b9b-83081e51c076
   port: 8443
@@ -718,7 +718,7 @@ proxies:
     headers:
       Host: 17708924959602.206355.xyz
     path: '%2Fvideomuaawe'
-- name: United States_None_trojan_1156
+- name: None_None_trojan_1156
   network: ws
   password: 42714fa2-595c-4993-8b9b-83081e51c076
   port: 8443
@@ -1065,9 +1065,9 @@ proxy-groups:
   - Taiwan_Chiayi City_trojan_1126
   - China_None_vmess_1127
   - United States_None_vmess_1128
-  - None_None_trojan_1129
-  - None_None_trojan_1130
-  - None_None_trojan_1131
+  - United States_San Francisco_trojan_1129
+  - United States_San Francisco_trojan_1130
+  - United States_San Francisco_trojan_1131
   - United States_San Francisco_trojan_1132
   - United States_San Francisco_trojan_1133
   - United States_San Francisco_trojan_1134
@@ -1087,12 +1087,12 @@ proxy-groups:
   - None_None_trojan_1148
   - None_None_trojan_1149
   - United States_None_trojan_1150
-  - United States_None_trojan_1151
+  - None_None_trojan_1151
   - None_None_trojan_1152
-  - None_None_trojan_1153
-  - None_None_trojan_1154
-  - None_None_trojan_1155
-  - United States_None_trojan_1156
+  - United States_None_trojan_1153
+  - United States_None_trojan_1154
+  - United States_None_trojan_1155
+  - None_None_trojan_1156
   - Taiwan_Chiayi City_trojan_1157
   - Unknown_vmess_1158
   - Taiwan_Chiayi City_trojan_1159
@@ -1175,9 +1175,9 @@ proxy-groups:
   - Taiwan_Chiayi City_trojan_1126
   - China_None_vmess_1127
   - United States_None_vmess_1128
-  - None_None_trojan_1129
-  - None_None_trojan_1130
-  - None_None_trojan_1131
+  - United States_San Francisco_trojan_1129
+  - United States_San Francisco_trojan_1130
+  - United States_San Francisco_trojan_1131
   - United States_San Francisco_trojan_1132
   - United States_San Francisco_trojan_1133
   - United States_San Francisco_trojan_1134
@@ -1197,12 +1197,12 @@ proxy-groups:
   - None_None_trojan_1148
   - None_None_trojan_1149
   - United States_None_trojan_1150
-  - United States_None_trojan_1151
+  - None_None_trojan_1151
   - None_None_trojan_1152
-  - None_None_trojan_1153
-  - None_None_trojan_1154
-  - None_None_trojan_1155
-  - United States_None_trojan_1156
+  - United States_None_trojan_1153
+  - United States_None_trojan_1154
+  - United States_None_trojan_1155
+  - None_None_trojan_1156
   - Taiwan_Chiayi City_trojan_1157
   - Unknown_vmess_1158
   - Taiwan_Chiayi City_trojan_1159
