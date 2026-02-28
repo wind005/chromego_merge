@@ -281,7 +281,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1116
+  name: Hong Kong_Choi Hung_vmess_1116
   network: ws
   port: '80'
   server: 8c0d4a37-tb89s0-tu0ezx-1m7l4.hkt.gotochinatown.net
@@ -333,7 +333,7 @@ proxies:
     headers:
       Host: 17721875627222.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: None_None_trojan_1121
+- name: United States_San Francisco_trojan_1121
   network: ws
   password: 0997a4f7-63ba-4f41-b210-83a7f18ea2c3
   port: 2087
@@ -345,7 +345,7 @@ proxies:
     headers:
       Host: 17721875625384.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: United States_San Francisco_trojan_1122
+- name: None_None_trojan_1122
   network: ws
   password: 0997a4f7-63ba-4f41-b210-83a7f18ea2c3
   port: 2087
@@ -357,7 +357,7 @@ proxies:
     headers:
       Host: 17721875627789.682637.xyz
     path: '%2Fahyrtuyjykl'
-- name: None_None_trojan_1123
+- name: United States_San Francisco_trojan_1123
   network: ws
   password: 0997a4f7-63ba-4f41-b210-83a7f18ea2c3
   port: 2096
@@ -721,7 +721,7 @@ proxies:
     path: '%2F'
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Central_vmess_1155
+  name: Hong Kong_Choi Hung_vmess_1155
   network: ws
   port: '80'
   server: 317e22e6-t94cg0-tcmken-19les.hkt.gotochinatown.net
@@ -905,14 +905,14 @@ proxy-groups:
   - China_None_vmess_1113
   - Hong Kong_Kai Yi Wan_trojan_1114
   - Hong Kong_Kai Yi Wan_trojan_1115
-  - Hong Kong_Central_vmess_1116
+  - Hong Kong_Choi Hung_vmess_1116
   - Hong Kong_Kai Yi Wan_trojan_1117
   - China_None_vmess_1118
   - United States_San Francisco_trojan_1119
   - United States_San Francisco_trojan_1120
-  - None_None_trojan_1121
-  - United States_San Francisco_trojan_1122
-  - None_None_trojan_1123
+  - United States_San Francisco_trojan_1121
+  - None_None_trojan_1122
+  - United States_San Francisco_trojan_1123
   - United States_San Francisco_trojan_1124
   - None_None_trojan_1125
   - United States_San Francisco_trojan_1126
@@ -944,7 +944,7 @@ proxy-groups:
   - Türkiye_None_trojan_1152
   - Hong Kong_Central_trojan_1153
   - Spain_None_trojan_1154
-  - Hong Kong_Central_vmess_1155
+  - Hong Kong_Choi Hung_vmess_1155
   - Seychelles_None_trojan_1156
   - Vietnam_Ho Chi Minh City_trojan_1157
   - United States_None_ss_1158
@@ -998,14 +998,14 @@ proxy-groups:
   - China_None_vmess_1113
   - Hong Kong_Kai Yi Wan_trojan_1114
   - Hong Kong_Kai Yi Wan_trojan_1115
-  - Hong Kong_Central_vmess_1116
+  - Hong Kong_Choi Hung_vmess_1116
   - Hong Kong_Kai Yi Wan_trojan_1117
   - China_None_vmess_1118
   - United States_San Francisco_trojan_1119
   - United States_San Francisco_trojan_1120
-  - None_None_trojan_1121
-  - United States_San Francisco_trojan_1122
-  - None_None_trojan_1123
+  - United States_San Francisco_trojan_1121
+  - None_None_trojan_1122
+  - United States_San Francisco_trojan_1123
   - United States_San Francisco_trojan_1124
   - None_None_trojan_1125
   - United States_San Francisco_trojan_1126
@@ -1037,7 +1037,7 @@ proxy-groups:
   - Türkiye_None_trojan_1152
   - Hong Kong_Central_trojan_1153
   - Spain_None_trojan_1154
-  - Hong Kong_Central_vmess_1155
+  - Hong Kong_Choi Hung_vmess_1155
   - Seychelles_None_trojan_1156
   - Vietnam_Ho Chi Minh City_trojan_1157
   - United States_None_ss_1158
