@@ -33,7 +33,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Man Kok_vmess_102
+  name: Hong Kong_Central_vmess_102
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -138,7 +138,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Man Kok_vmess_1015
+  name: Hong Kong_Central_vmess_1015
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -244,7 +244,7 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Man Kok_vmess_1112
+  name: Hong Kong_Central_vmess_1112
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -349,7 +349,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: Hong Kong_Man Kok_vmess_1125
+  name: Hong Kong_Central_vmess_1125
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -357,25 +357,49 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
+- name: None_None_trojan_1126
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.26.2.173
+  skip-cert-verify: true
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alterId: 0
   cipher: auto
-  name: China_None_vmess_1126
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: false
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: Japan_Tokyo_vmess_1127
+  network: http
+  port: 53268
+  server: 47.74.43.250
+  skip-cert-verify: true
   tls: false
   type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- name: United States_None_trojan_1127
+  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
+- name: United States_None_trojan_1128
   network: tcp
   password: 55354c2b8ee339571bd657a9bb9858cc
-  port: 53199
+  port: '53199'
   server: speed-01.aliyun-web-tracker.cn
   skip-cert-verify: true
   sni: speed-01.aliyun-web-tracker.cn
+  type: trojan
+  udp: true
+- name: China_None_trojan_1129
+  network: tcp
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: '30428'
+  server: 106.75.132.91
+  skip-cert-verify: true
+  sni: 106.75.132.91
   type: trojan
   udp: true
 proxy-groups:
@@ -385,7 +409,7 @@ proxy-groups:
   - 自动选择
   - DIRECT
   - United States_None_ss_101
-  - Hong Kong_Man Kok_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_None_trojan_103
   - Hong Kong_None_trojan_104
   - Hong Kong_None_trojan_105
@@ -398,7 +422,7 @@ proxy-groups:
   - Hong Kong_None_trojan_1012
   - Hong Kong_None_trojan_1013
   - Hong Kong_None_trojan_1014
-  - Hong Kong_Man Kok_vmess_1015
+  - Hong Kong_Central_vmess_1015
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -410,7 +434,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Man Kok_vmess_1112
+  - Hong Kong_Central_vmess_1112
   - Hong Kong_None_trojan_1113
   - Hong Kong_None_trojan_1114
   - Hong Kong_None_trojan_1115
@@ -423,9 +447,11 @@ proxy-groups:
   - Hong Kong_None_trojan_1122
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
-  - Hong Kong_Man Kok_vmess_1125
-  - China_None_vmess_1126
-  - United States_None_trojan_1127
+  - Hong Kong_Central_vmess_1125
+  - None_None_trojan_1126
+  - Japan_Tokyo_vmess_1127
+  - United States_None_trojan_1128
+  - China_None_trojan_1129
 - name: 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -433,7 +459,7 @@ proxy-groups:
   tolerance: 50
   proxies:
   - United States_None_ss_101
-  - Hong Kong_Man Kok_vmess_102
+  - Hong Kong_Central_vmess_102
   - Hong Kong_None_trojan_103
   - Hong Kong_None_trojan_104
   - Hong Kong_None_trojan_105
@@ -446,7 +472,7 @@ proxy-groups:
   - Hong Kong_None_trojan_1012
   - Hong Kong_None_trojan_1013
   - Hong Kong_None_trojan_1014
-  - Hong Kong_Man Kok_vmess_1015
+  - Hong Kong_Central_vmess_1015
   - Unknown_vmess_111
   - Unknown_vmess_112
   - Unknown_vmess_113
@@ -458,7 +484,7 @@ proxy-groups:
   - Unknown_vmess_119
   - Unknown_vmess_1110
   - United States_None_ss_1111
-  - Hong Kong_Man Kok_vmess_1112
+  - Hong Kong_Central_vmess_1112
   - Hong Kong_None_trojan_1113
   - Hong Kong_None_trojan_1114
   - Hong Kong_None_trojan_1115
@@ -471,9 +497,11 @@ proxy-groups:
   - Hong Kong_None_trojan_1122
   - Hong Kong_None_trojan_1123
   - Hong Kong_None_trojan_1124
-  - Hong Kong_Man Kok_vmess_1125
-  - China_None_vmess_1126
-  - United States_None_trojan_1127
+  - Hong Kong_Central_vmess_1125
+  - None_None_trojan_1126
+  - Japan_Tokyo_vmess_1127
+  - United States_None_trojan_1128
+  - China_None_trojan_1129
 rules:
 - DOMAIN,clash.razord.top,DIRECT
 - DOMAIN,yacd.haishan.me,DIRECT
